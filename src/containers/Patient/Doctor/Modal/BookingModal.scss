@@ -1,0 +1,59 @@
+$primary-color-blue: #22c1c3;
+$primary-color-yellow: #fdbb2d;
+.modal-user-container {
+  .modal-content {
+    border-radius: 5px;
+    border: 1px solid $primary-color-blue;
+    overflow: hidden;
+
+    .modal-header {
+      background-color: $primary-color-blue !important;
+      height: 180px !important;
+      padding: 0.8rem 0.8rem;
+
+      h5 {
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        line-height: 24px !important;
+        margin-left: 24px;
+        color: white;
+      }
+      button {
+        display: none;
+      }
+      .doctor-infor {
+      }
+    }
+    .row {
+      .form-group {
+        label {
+          font-size: 14px;
+        }
+        .form-control {
+          font-size: 14px;
+          padding: 0px 5px;
+        }
+      }
+    }
+    .modal-footer {
+      button {
+        border-radius: 5px;
+        &:first-child {
+          background-color: $primary-color-blue;
+          &:hover {
+            color: #fff;
+            background-color: $primary-color-yellow;
+          }
+        }
+        &:last-child {
+          color: #fff;
+          background-color: #bbb;
+          &:hover {
+            background-color: rgba(105, 105, 105, 0.733) !important;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

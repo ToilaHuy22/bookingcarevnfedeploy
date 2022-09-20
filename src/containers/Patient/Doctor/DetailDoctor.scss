@@ -1,0 +1,50 @@
+.doctor-detail-container {
+  height: 500px;
+  .intro-doctor {
+    .intro-doctor-content {
+      display: flex;
+      .content-left {
+        width: 15%;
+        background: center center no-repeat;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        background-size: cover;
+      }
+      .content-right {
+        width: 80%;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        .up {
+          font-size: 27px;
+          font-weight: 600;
+        }
+        .down {
+        }
+      }
+    }
+  }
+  .schedule-doctor {
+    border-bottom: 1px solid #ccc;
+
+    .schedule-doctor-content {
+      display: flex;
+      gap: 30px;
+      .content-left {
+        width: 55%;
+      }
+      .content-right {
+        width: 45%;
+      }
+    }
+  }
+  .detail-infor-doctor {
+    border-bottom: 1px solid #ccc;
+    .detail-infor-doctor-content {
+    }
+  }
+  .comment-doctor {
+    height: 200px;
+  }
+}
